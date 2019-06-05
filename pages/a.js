@@ -5,7 +5,7 @@ function A({ testObject, testString }) {
         <>
             <div>Page A</div>
             <p>Test string</p>
-            <pre>testString</pre>
+            <pre>{testString}</pre>
             <p>Test object</p>
             <pre>{JSON.stringify(testObject)}</pre>
             <Link
